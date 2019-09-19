@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import LocaleContext from './LocaleContext'
 import Greeting from './Greeting'
+import Description from './Description'
 import ToggleLocale from './ToggleLocale'
 import {
   ENGLISH_LOCALE,
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <LocaleContext.Provider value={locale}>
       <Greeting />
+      <Description />
       <ToggleLocale changeLocale={toggleLocale} />
     </LocaleContext.Provider>
   )
