@@ -1,11 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App'
 
 ReactDOM.render(
-  <div className="my-app">
-    <h1>React, with context</h1>
-
-    This is some content.
-  </div>,
+  <App />,
   document.getElementById('app-container')
 )
