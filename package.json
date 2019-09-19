@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/robmclarty/react-context/issues"
   },
-  "homepage": "https://github.com/robmclarty/react-context#readme"
+  "homepage": "https://github.com/robmclarty/react-context#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "soko": "^0.5.3"
+  }
 }
