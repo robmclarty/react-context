@@ -7,7 +7,7 @@ const getGreetingFor = locale => locale === ENGLISH_LOCALE
   : 'Bienvenue!'
 
 // A functional context consumer example.
-const Greeting = (props, context) => {
+const Greeting = () => {
   const locale = useContext(LocaleContext)
 
   return (
