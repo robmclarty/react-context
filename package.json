@@ -4,7 +4,10 @@
   "description": "A simple example of using React context API in isolation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "haha, no",
+    "build:js": "npx soko build:js --jsIn ./app/index.js --jsOut ./build/js/app.js",
+    "build:assets": "npx soko build:assets --assetsIn ./assets",
+    "build": "npm run build:js && npm run build:assets"
   },
   "repository": {
     "type": "git",
