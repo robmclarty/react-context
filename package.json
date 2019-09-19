@@ -1,0 +1,19 @@
+{
+  "name": "react-context",
+  "version": "0.0.1",
+  "description": "A simple example of using React context API in isolation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/robmclarty/react-context.git"
+  },
+  "author": "Rob McLarty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robmclarty/react-context/issues"
+  },
+  "homepage": "https://github.com/robmclarty/react-context#readme"
+}
